@@ -14,7 +14,7 @@ module.exports = (req, res) => {
     target,
     changeOrigin: true,
     pathRewrite: {
-      '^/api/': '/m-api/'
+      '^/api/': '/'
     }
   })(req, res)
 }
