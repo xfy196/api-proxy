@@ -7,7 +7,6 @@ module.exports = (req, res) => {
   if (req.url.startsWith('/api')) {
     target = 'https://apimusic.xxytime.top'
   }
-
   // 创建代理对象并转发请求
   createProxyMiddleware({
     target,
