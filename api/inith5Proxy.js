@@ -12,7 +12,7 @@ module.exports = (req, res) => {
     target,
     changeOrigin: true,
     pathRewrite: {
-      '^/api/h5': '/h5'
+      '^/api': '/'
     }
   })(req, res)
 }
