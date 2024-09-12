@@ -1,12 +1,12 @@
 {
-    "rewrites": [
+  "rewrites": [
+      {
+        "source": "/api/h5/(.*)",
+        "destination": "/api/inith5Proxy"
+      },
       {
         "source": "/api/(.*)",
         "destination": "/api/proxy"
       },
-      {
-        "source": "/api/h5/(.*)",
-        "destination": "/api/inith5Proxy"
-      }
     ]
   }
